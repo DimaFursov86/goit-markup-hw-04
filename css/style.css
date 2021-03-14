@@ -121,8 +121,6 @@ img {
 
 /* ===============Header=============== */
 .header {
-  padding-top: 25px;
-  padding-bottom: 25px;
   background-color: var(--navigation-logo-studio-footer);
   border-bottom: 1px solid #ececec;
 }
@@ -158,6 +156,9 @@ img {
 }
 .navigation-link-color {
   color: var(--portfolio-cards-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 .navigation-link-color:hover,
 .navigation-link-color:focus {
